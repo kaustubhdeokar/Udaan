@@ -39,10 +39,10 @@
         $fromdate=filter_input(INPUT_POST,'fromdate');
         $todate=filter_input(INPUT_POST,'todate');
 
-        $host="bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-        $dbusername="ha9ycmh4mllh25x0";
-        $dbpassword="yrpqr64bluz6kk40";
-        $dbname="mappsr7b4vl2osq7";
+        $host="us-cdbr-iron-east-02.cleardb.net";
+        $dbusername="b5a6d085f34f5c";
+        $dbpassword="6f8d913a";
+        $dbname="heroku_35e4fe7ddf505ea";
         $conn=new mysqli ($host,$dbusername,$dbpassword,$dbname);
         if(mysqli_connect_error()){
             echo "connection lost";
