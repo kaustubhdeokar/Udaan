@@ -31,10 +31,10 @@
         $taskname=filter_input(INPUT_POST,'taskname');
         $freq=filter_input(INPUT_POST,'frequency');
             
-        $host="localhost";
-        $dbusername="root";
-        $dbpassword="";
-        $dbname="udaandb";
+        $host="bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $dbusername="ha9ycmh4mllh25x0";
+        $dbpassword="yrpqr64bluz6kk40";
+        $dbname="mappsr7b4vl2osq7";
         $conn=new mysqli ($host,$dbusername,$dbpassword,$dbname);
         if(mysqli_connect_error()){
             echo "connection lost";
