@@ -1,2 +1,0 @@
-[2019-07-11 02:07:08.055] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/Udaan/.vscode'
-[2019-07-11 02:07:08.056] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/Udaan/.vscode'
